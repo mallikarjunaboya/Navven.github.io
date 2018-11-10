@@ -323,7 +323,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  510
+                  597
                 </span>
               
 
@@ -371,52 +371,51 @@
 <li><a href="#directory">Directory</a><ul>
 <li><a href="#新版本安装方式">新版本安装方式</a></li>
 <li><a href="#旧版本安装方式">旧版本安装方式</a></li>
+<li><a href="#命令介绍">命令介绍</a></li>
+<li><a href="#服务管理">服务管理</a></li>
+<li><a href="#镜像管理">镜像管理</a><ul>
+<li><a href="#通过容器创建镜像">通过容器创建镜像</a></li>
+<li><a href="#通过dockerfile创建镜像">通过DockerFile创建镜像</a></li>
+<li><a href="#发布自己的镜像">发布自己的镜像</a></li>
+<li><a href="#镜像中安装环境">镜像中安装环境</a></li>
 </ul>
 </li>
-<li><a href="#镜像管理">镜像管理</a><pre><code>- [通过容器创建镜像](#通过容器创建镜像)
-    - [通过DockerFile创建镜像](#通过dockerfile创建镜像)
-</code></pre></li>
+<li><a href="#容器管理">容器管理</a><ul>
+<li><a href="#容器服务管理">容器服务管理</a></li>
+<li><a href="#进入容器">进入容器</a></li>
+</ul>
+</li>
+<li><a href="#文件拷贝">文件拷贝</a></li>
+<li><a href="#docker私有仓库搭建">Docker私有仓库搭建</a><ul>
+<li><a href="#部署registry">部署registry</a></li>
+<li><a href="#部署管理工具harbor">部署管理工具Harbor</a></li>
+</ul>
+</li>
+<li><a href="#docker实战了解一下">Docker实战了解一下?</a><ul>
+<li><a href="#部署nginx">部署Nginx</a></li>
+<li><a href="#部署tomcat">部署Tomcat</a></li>
+<li><a href="#部署mysql">部署Mysql</a></li>
+<li><a href="#部署redis">部署Redis</a></li>
+<li><a href="#部署elasticsearch">部署Elasticsearch</a></li>
+<li><a href="#部署gitlab">部署Gitlab</a></li>
+<li><a href="#部署rocketchat">部署Rocket.Chat</a></li>
+<li><a href="#部署humpback">部署Humpback</a></li>
+<li><a href="#部署netdisk">部署NetDisk</a></li>
+</ul>
+</li>
+<li><a href="#卸载旧版本">卸载旧版本</a></li>
+<li><a href="#参考资料">参考资料</a></li>
+</ul>
+</li>
 <li><a href="#新版本安装方式-1">新版本安装方式</a></li>
 </ul>
 <!-- /TOC -->
-<h1 id="Directory"><a href="#Directory" class="headerlink" title="Directory"></a>Directory</h1><h2 id="新版本安装方式"><a href="#新版本安装方式" class="headerlink" title="新版本安装方式"></a>新版本安装方式</h2><h2 id="旧版本安装方式"><a href="#旧版本安装方式" class="headerlink" title="旧版本安装方式"></a>旧版本安装方式</h2><ul>
-<li>命令介绍</li>
-<li>服务管理<h1 id="镜像管理"><a href="#镜像管理" class="headerlink" title="镜像管理"></a>镜像管理</h1>这里是测试哟!!! (# 镜像管理)  <h3 id="通过容器创建镜像"><a href="#通过容器创建镜像" class="headerlink" title="通过容器创建镜像"></a>通过容器创建镜像</h3><h4 id="通过DockerFile创建镜像"><a href="#通过DockerFile创建镜像" class="headerlink" title="通过DockerFile创建镜像"></a>通过DockerFile创建镜像</h4><ul>
-<li>发布自己的镜像</li>
-<li>镜像中安装环境</li>
-</ul>
-</li>
-<li>容器管理<ul>
-<li>容器服务管理</li>
-<li>进入容器</li>
-</ul>
-</li>
-<li>文件拷贝</li>
-<li>Docker私有仓库搭建<ul>
-<li>部署registry</li>
-<li>部署管理工具Harbor</li>
-</ul>
-</li>
-<li>Docker实战了解一下?<ul>
-<li>部署Nginx</li>
-<li>部署Tomcat</li>
-<li>部署Mysql</li>
-<li>部署Redis</li>
-<li>部署Elasticsearch</li>
-<li>部署Gitlab</li>
-<li>部署Rocket.Chat</li>
-<li>部署Humpback</li>
-<li>部署NetDisk</li>
-</ul>
-</li>
-<li>卸载旧版本</li>
-<li>参考资料<ul>
-<li>官方英文资源</li>
-<li>中文资源</li>
-<li>其他资源</li>
-</ul>
-</li>
-</ul>
+<h1 id="Directory"><a href="#Directory" class="headerlink" title="Directory"></a>Directory</h1><h2 id="新版本安装方式"><a href="#新版本安装方式" class="headerlink" title="新版本安装方式"></a>新版本安装方式</h2><h2 id="旧版本安装方式"><a href="#旧版本安装方式" class="headerlink" title="旧版本安装方式"></a>旧版本安装方式</h2><h2 id="命令介绍"><a href="#命令介绍" class="headerlink" title="命令介绍"></a>命令介绍</h2><h2 id="服务管理"><a href="#服务管理" class="headerlink" title="服务管理"></a>服务管理</h2><h2 id="镜像管理"><a href="#镜像管理" class="headerlink" title="镜像管理"></a>镜像管理</h2><h3 id="通过容器创建镜像"><a href="#通过容器创建镜像" class="headerlink" title="通过容器创建镜像"></a>通过容器创建镜像</h3><h3 id="通过DockerFile创建镜像"><a href="#通过DockerFile创建镜像" class="headerlink" title="通过DockerFile创建镜像"></a>通过DockerFile创建镜像</h3><h3 id="发布自己的镜像"><a href="#发布自己的镜像" class="headerlink" title="发布自己的镜像"></a>发布自己的镜像</h3><h3 id="镜像中安装环境"><a href="#镜像中安装环境" class="headerlink" title="镜像中安装环境"></a>镜像中安装环境</h3><h2 id="容器管理"><a href="#容器管理" class="headerlink" title="容器管理"></a>容器管理</h2><h3 id="容器服务管理"><a href="#容器服务管理" class="headerlink" title="容器服务管理"></a>容器服务管理</h3><h3 id="进入容器"><a href="#进入容器" class="headerlink" title="进入容器"></a>进入容器</h3><h2 id="文件拷贝"><a href="#文件拷贝" class="headerlink" title="文件拷贝"></a>文件拷贝</h2><h2 id="Docker私有仓库搭建"><a href="#Docker私有仓库搭建" class="headerlink" title="Docker私有仓库搭建"></a>Docker私有仓库搭建</h2><h3 id="部署registry"><a href="#部署registry" class="headerlink" title="部署registry"></a>部署registry</h3><h3 id="部署管理工具Harbor"><a href="#部署管理工具Harbor" class="headerlink" title="部署管理工具Harbor"></a>部署管理工具Harbor</h3><h2 id="Docker实战了解一下"><a href="#Docker实战了解一下" class="headerlink" title="Docker实战了解一下?"></a>Docker实战了解一下?</h2><h3 id="部署Nginx"><a href="#部署Nginx" class="headerlink" title="部署Nginx"></a>部署Nginx</h3><h3 id="部署Tomcat"><a href="#部署Tomcat" class="headerlink" title="部署Tomcat"></a>部署Tomcat</h3><h3 id="部署Mysql"><a href="#部署Mysql" class="headerlink" title="部署Mysql"></a>部署Mysql</h3><h3 id="部署Redis"><a href="#部署Redis" class="headerlink" title="部署Redis"></a>部署Redis</h3><h3 id="部署Elasticsearch"><a href="#部署Elasticsearch" class="headerlink" title="部署Elasticsearch"></a>部署Elasticsearch</h3><h3 id="部署Gitlab"><a href="#部署Gitlab" class="headerlink" title="部署Gitlab"></a>部署Gitlab</h3><h3 id="部署Rocket-Chat"><a href="#部署Rocket-Chat" class="headerlink" title="部署Rocket.Chat"></a>部署Rocket.Chat</h3><h3 id="部署Humpback"><a href="#部署Humpback" class="headerlink" title="部署Humpback"></a>部署Humpback</h3><h3 id="部署NetDisk"><a href="#部署NetDisk" class="headerlink" title="部署NetDisk"></a>部署NetDisk</h3><h2 id="卸载旧版本"><a href="#卸载旧版本" class="headerlink" title="卸载旧版本"></a>卸载旧版本</h2><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><pre><code>* 官方英文资源 
+</code></pre><p><a href="https://docs.docker.com/" target="_blank" rel="noopener">Docker官网</a></p>
+<pre><code>* 中文资源
+</code></pre><p><a href="https://www.docker-cn.com/" target="_blank" rel="noopener">轻点这里</a>    </p>
+<pre><code>* 其他资源
+</code></pre><p><a href="">轻点这里</a>    </p>
 <hr>
 <p>Docker 从 1.13 版本之后采用时间线的方式作为版本号，分为社区版 CE 和企业版 EE，社区版是免费提供给个人开发者和小型团体使用的，企业版会提供额外的收费服务，比如经过官方测试认证过的基础设施、容器、插件等。</p>
 <p>社区版按照 stable 和 edge 两种方式发布，每个季度更新 stable 版本，如 17.06，17.09；每个月份更新 edge 版本，如17.09，17.10。</p>
